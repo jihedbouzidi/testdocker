@@ -1,13 +1,30 @@
-# React + Vite
+### TestDocker – Environnement de Développement Collaboratif avec Docker
+Ce repository a pour objectif de fournir un environnement de développement standardisé, réplicable et collaboratif pour tester un projet web en équipe à l’aide de Docker.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Objectifs
+Faciliter le travail en équipe sur un projet React/Node.js (ou autre stack)
 
-Currently, two official plugins are available:
+Éviter les problèmes de compatibilité d’environnement entre les machines
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mettre en place une structure simple et prête à l’emploi pour le développement, les tests et le déploiement local
 
-## Expanding the ESLint configuration
+⚙️ Technologies utilisées
+Docker & Docker Compose pour la conteneurisation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# testdocker
+React / Vite (Front-end)
+
+GitHub pour la gestion du code source en équipe
+
+### Utilisation
+Cloner le projet :
+
+git clone https://github.com/jihedbouzidi/testdocker.git
+cd testdocker
+### Lancer les conteneurs :
+
+docker-compose up --build
+Accéder à l’application sur http://localhost:3000 (ou selon configuration)
+
+🤝 Collaboration
+Chaque membre de l’équipe peut cloner ce dépôt, lancer son propre environnement Docker, et contribuer en toute sécurité. Les contributions peuvent être faites via des branches, pull requests et revues de code.
+
