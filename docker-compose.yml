@@ -1,10 +1,10 @@
-version: '3'
 services:
-  frontend:
-    build: .
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "5173:5173"
+      - 5173:5173
     volumes:
       - .:/app
-      - /app/node_modules        # évite conflit node_modules local
-    command: npm run dev
+      - /app/node_modules
