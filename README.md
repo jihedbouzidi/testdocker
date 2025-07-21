@@ -1,4 +1,4 @@
-### TestDocker – Environnement de Développement Collaboratif avec Docker
+### – Environnement de Développement Collaboratif avec Docker
 Ce repository a pour objectif de fournir un environnement de développement standardisé, réplicable et collaboratif pour tester un projet web en équipe à l’aide de Docker.
 
 ### Objectifs
