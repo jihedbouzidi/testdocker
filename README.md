@@ -1,7 +1,7 @@
-### TestDocker – Environnement de Développement Collaboratif avec Docker
+### hello world – Environnement de Développement Collaboratif avec Docker
 Ce repository a pour objectif de fournir un environnement de développement standardisé, réplicable et collaboratif pour tester un projet web en équipe à l’aide de Docker.
 
-### Objectifs
+### Objectifs 
 Faciliter le travail en équipe sur un projet React/Node.js (ou autre stack)
 
 Éviter les problèmes de compatibilité d’environnement entre les machines
